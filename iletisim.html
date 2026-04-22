@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | Mevlana Kız AİHL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="iletisim">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>İletişim</h2>
+            <p>Okulumuza ulaşmak için iletişim kanalları.</p>
+          </div>
+          <div class="contact-grid">
+            <article class="card">
+              <h3>Harita</h3>
+              <iframe
+                title="Google Harita"
+                src="https://www.google.com/maps?q=Konya&output=embed"
+                loading="lazy"
+              ></iframe>
+            </article>
+            <article class="card">
+              <h3>İletişim Formu</h3>
+              <form class="contact-form">
+                <label>
+                  Ad Soyad
+                  <input type="text" name="name" placeholder="Adınızı giriniz" required />
+                </label>
+                <label>
+                  E-posta
+                  <input type="email" name="email" placeholder="ornek@mail.com" required />
+                </label>
+                <label>
+                  Mesaj
+                  <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Mesajınızı yazınız"
+                    required
+                  ></textarea>
+                </label>
+                <button type="submit">Gönder</button>
+              </form>
+            </article>
+            <article class="card">
+              <h3>İletişim Bilgileri</h3>
+              <p><strong>Adres:</strong> Merkez / Konya</p>
+              <p><strong>Telefon:</strong> (0332) 000 00 00</p>
+              <p><strong>E-posta:</strong> bilgi@mevlanakizaihl.k12.tr</p>
+              <p><strong>Mesai:</strong> Hafta içi 08.00 - 17.00</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mevlana Kız Anadolu İmam Hatip Lisesi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="index">
+    <div id="splash-screen" class="splash-screen" aria-label="Giriş ekranı">
+      <div class="splash-content">
+        <img
+          src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80"
+          alt="Mevlana Kız Anadolu İmam Hatip Lisesi logosu"
+          class="splash-logo"
+        />
+        <h1>Mevlana Kız Anadolu İmam Hatip Lisesi</h1>
+        <p>Bilgi, Değer ve Başarı Yolculuğu</p>
+        <img
+          src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=1300&q=80"
+          alt="Okuldan kaliteli bir görünüm"
+          class="splash-photo"
+        />
+      </div>
+      <button id="skip-splash" class="skip-btn" type="button">Girişi Atla</button>
+    </div>
+
+    <div id="site-header"></div>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-slider-card">
+            <div class="slider-head">
+              <h2>Güncel Haberler</h2>
+              <div class="slider-controls">
+                <button id="prev-slide" type="button" aria-label="Önceki haber">◀</button>
+                <button id="next-slide" type="button" aria-label="Sonraki haber">▶</button>
+              </div>
+            </div>
+            <div id="news-slider" class="news-slider"></div>
+          </div>
+
+          <div class="hero-right">
+            <article class="card">
+              <h3>Duyuru Panosu</h3>
+              <ul id="announcement-list" class="announcement-list"></ul>
+            </article>
+
+            <article class="card">
+              <h3>Bağlantılar</h3>
+              <div class="quick-links-grid" id="quick-links-grid"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Okuma Köşesi</h2>
+            <p>Kurumsal yayınlar, rehber içerikler ve dönemsel değerlendirmeler.</p>
+          </div>
+          <div class="bento-grid three-cols">
+            <article
+              class="card read-item"
+              data-read-content="Okulumuzda akademik başarı yalnızca sınav puanları ile değil, öğrencinin kişisel gelişimi, sorumluluk bilinci ve değer odaklı yaklaşımı ile birlikte ele alınmaktadır. Bu kapsamda yürütülen rehberlik çalışmaları, öğrenci izleme toplantıları ve veli iş birliği mekanizmaları ile daha sürdürülebilir bir başarı modeli hedeflenmektedir."
+            >
+              <h3>Akademik Başarıda Süreklilik Modeli</h3>
+              <p class="summary-text">
+                Başarıyı kısa dönemli sonuçlardan öte, sistemli takip ve gelişim odaklı bir
+                yaklaşımla değerlendiriyoruz.
+              </p>
+            </article>
+            <article
+              class="card read-item"
+              data-read-content="Değerler eğitimi etkinliklerimiz yıl boyunca ders içi ve ders dışı faaliyetlerle desteklenmektedir. Sınıf içi paylaşımlar, sosyal sorumluluk projeleri, okuma atölyeleri ve tematik buluşmalar sayesinde öğrencilerimizin toplumsal duyarlılığı ile iletişim becerileri birlikte geliştirilmektedir."
+            >
+              <h3>Değerler Eğitimi Faaliyet Raporu</h3>
+              <p class="summary-text">
+                Yıl boyunca yürütülen değer odaklı etkinliklerin kapsamı ve öğrenci kazanımları.
+              </p>
+            </article>
+            <article
+              class="card read-item"
+              data-read-content="YKS hazırlık programımız çok boyutlu bir planlama ile uygulanmaktadır. Branş denemeleri, etüt programları, bireysel koçluk görüşmeleri ve geri bildirim raporları ile öğrencilerimizin hedeflerine adım adım ilerlemesi amaçlanmaktadır. Her öğrencinin öğrenme profiline göre kişiselleştirilmiş destek çalışmaları yapılmaktadır."
+            >
+              <h3>YKS Hazırlıkta Stratejik Yol Haritası</h3>
+              <p class="summary-text">
+                Planlı etüt, ölçme-değerlendirme ve bireysel danışmanlıkla hedef odaklı hazırlık
+                süreci.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
